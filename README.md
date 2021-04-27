@@ -57,3 +57,4 @@ HW v2.1 is tested and works!
 ## License
 
 ![MIT Licensed HW](images/license.png)
+# OtterCam-s3
