@@ -1,0 +1,104 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 608989A1
+P 3350 4200
+F 0 "H1" H 3450 4249 50  0000 L CNN
+F 1 "M3" H 3450 4158 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm_Pad_Via" H 3350 4200 50  0001 C CNN
+F 3 "~" H 3350 4200 50  0001 C CNN
+	1    3350 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L otter:GND #PWR0101
+U 1 1 60898AB2
+P 3350 4300
+F 0 "#PWR0101" H 3350 4050 50  0001 C CNN
+F 1 "GND" H 3355 4127 50  0000 C CNN
+F 2 "" H 3350 4300 60  0000 C CNN
+F 3 "" H 3350 4300 60  0000 C CNN
+	1    3350 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 60898FE5
+P 3650 4200
+F 0 "H2" H 3750 4249 50  0000 L CNN
+F 1 "M3" H 3750 4158 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm_Pad_Via" H 3650 4200 50  0001 C CNN
+F 3 "~" H 3650 4200 50  0001 C CNN
+	1    3650 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L otter:GND #PWR0102
+U 1 1 60898FEB
+P 3650 4300
+F 0 "#PWR0102" H 3650 4050 50  0001 C CNN
+F 1 "GND" H 3655 4127 50  0000 C CNN
+F 2 "" H 3650 4300 60  0000 C CNN
+F 3 "" H 3650 4300 60  0000 C CNN
+	1    3650 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 60899265
+P 3950 4200
+F 0 "H3" H 4050 4249 50  0000 L CNN
+F 1 "M3" H 4050 4158 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm_Pad_Via" H 3950 4200 50  0001 C CNN
+F 3 "~" H 3950 4200 50  0001 C CNN
+	1    3950 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L otter:GND #PWR0103
+U 1 1 6089926B
+P 3950 4300
+F 0 "#PWR0103" H 3950 4050 50  0001 C CNN
+F 1 "GND" H 3955 4127 50  0000 C CNN
+F 2 "" H 3950 4300 60  0000 C CNN
+F 3 "" H 3950 4300 60  0000 C CNN
+	1    3950 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 608994FD
+P 4250 4200
+F 0 "H4" H 4350 4249 50  0000 L CNN
+F 1 "M3" H 4350 4158 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm_Pad_Via" H 4250 4200 50  0001 C CNN
+F 3 "~" H 4250 4200 50  0001 C CNN
+	1    4250 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L otter:GND #PWR0104
+U 1 1 60899503
+P 4250 4300
+F 0 "#PWR0104" H 4250 4050 50  0001 C CNN
+F 1 "GND" H 4255 4127 50  0000 C CNN
+F 2 "" H 4250 4300 60  0000 C CNN
+F 3 "" H 4250 4300 60  0000 C CNN
+	1    4250 4300
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

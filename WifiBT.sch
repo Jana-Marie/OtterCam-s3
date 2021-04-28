@@ -224,14 +224,6 @@ Text GLabel 8200 3650 2    50   Input ~ 0
 WL_SDIO_D2
 Text GLabel 8200 3750 2    50   Input ~ 0
 WL_SDIO_D3
-Text GLabel 7550 3900 2    50   Input ~ 0
-BT_PCM_SYNC
-Text GLabel 7550 4000 2    50   Input ~ 0
-BT_PCM_CLK
-Text GLabel 7550 4100 2    50   Input ~ 0
-BT_PCM_DIN
-Text GLabel 7550 4200 2    50   Input ~ 0
-BT_PCM_DOUT
 Text GLabel 6900 4300 2    50   Input ~ 0
 BT_UART_TX
 Text GLabel 8700 4400 2    50   Input ~ 0
@@ -520,29 +512,13 @@ Wire Wire Line
 Connection ~ 3850 3350
 Wire Wire Line
 	4200 3050 5700 3050
-Wire Wire Line
-	7550 4200 7300 4200
-Wire Wire Line
-	7100 4200 6900 4200
-Wire Wire Line
-	7550 4100 7300 4100
-Wire Wire Line
-	7100 4100 6900 4100
-Wire Wire Line
-	7550 4000 7300 4000
-Wire Wire Line
-	7100 4000 6900 4000
-Wire Wire Line
-	7550 3900 7300 3900
-Wire Wire Line
-	7100 3900 6900 3900
 $Comp
 L otter:KH-5220-A56_U.FL AE1
 U 1 1 60E512A9
 P 2800 3750
 F 0 "AE1" H 2800 4117 50  0000 C CNN
 F 1 "KH-5220-A56_U.FL" H 2800 4026 50  0000 C CNN
-F 2 "otter:KH-5220-A56" H 2800 3850 50  0001 C CNN
+F 2 "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical" H 2800 3850 50  0001 C CNN
 F 3 "~" H 2800 3850 50  0001 C CNN
 	1    2800 3750
 	-1   0    0    -1  
@@ -661,41 +637,7 @@ F 3 "" H 5300 5250 60  0000 C CNN
 	1    5300 5250
 	-1   0    0    -1  
 $EndComp
-$Comp
-L Oscillator:TXC-7C X1
-U 1 1 5FE2E1BA
-P 4200 4700
-F 0 "X1" H 4500 4800 50  0000 L CNN
-F 1 "26Mhz TCXO" H 4450 4600 50  0000 L CNN
-F 2 "otter:2016_SMD_CRYSTAL" H 4900 4350 50  0001 C CNN
-F 3 "" H 4100 4700 50  0001 C CNN
-	1    4200 4700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5200 4500 5700 4500
-NoConn ~ 5700 4400
 NoConn ~ 5700 4600
-$Comp
-L power:GND #PWR?
-U 1 1 5FE412EC
-P 4200 5000
-AR Path="/5D8A1FAC/5FE412EC" Ref="#PWR?"  Part="1" 
-AR Path="/5FE412EC" Ref="#PWR?"  Part="1" 
-AR Path="/602ACDF9/5FE412EC" Ref="#PWR?"  Part="1" 
-AR Path="/6191F40B/5FE412EC" Ref="#PWR097"  Part="1" 
-F 0 "#PWR097" H 4200 4750 50  0001 C CNN
-F 1 "GND" H 4200 4850 50  0000 C CNN
-F 2 "" H 4200 5000 60  0000 C CNN
-F 3 "" H 4200 5000 60  0000 C CNN
-	1    4200 5000
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	4500 4700 5200 4700
-Wire Wire Line
-	5200 4500 5200 4700
-NoConn ~ 3900 4700
 $Comp
 L power:+3V3 #PWR?
 U 1 1 604560F3
@@ -767,69 +709,126 @@ F 3 "" H 8700 4700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3V3 #PWR?
-U 1 1 60465D24
-P 4200 4400
-AR Path="/604A1CEE/60465D24" Ref="#PWR?"  Part="1" 
-AR Path="/60465D24" Ref="#PWR?"  Part="1" 
-AR Path="/6191F40B/60465D24" Ref="#PWR096"  Part="1" 
-F 0 "#PWR096" H 4200 4250 50  0001 C CNN
-F 1 "+3V3" H 4200 4550 50  0000 C CNN
-F 2 "" H 4200 4400 50  0001 C CNN
-F 3 "" H 4200 4400 50  0001 C CNN
-	1    4200 4400
-	1    0    0    -1  
+L Device:Crystal_GND24_Small Y?
+U 1 1 60EF399F
+P 5300 4450
+AR Path="/620E795B/60EF399F" Ref="Y?"  Part="1" 
+AR Path="/6191F40B/60EF399F" Ref="Y3"  Part="1" 
+F 0 "Y3" V 5450 4500 50  0000 L CNN
+F 1 "26MHz" V 5450 4150 50  0000 L CNN
+F 2 "otter:Oscillator_3225" H 5300 4450 50  0001 C CNN
+F 3 "~" H 5300 4450 50  0001 C CNN
+	1    5300 4450
+	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R?
-U 1 1 5FF4884B
-P 7200 3900
-AR Path="/5FF4884B" Ref="R?"  Part="1" 
-AR Path="/6191F40B/5FF4884B" Ref="R35"  Part="1" 
-F 0 "R35" V 7150 3750 50  0000 C CNN
-F 1 "DNP" V 7150 4050 50  0000 C CNN
-F 2 "otter:R_0402" H 7200 3900 50  0001 C CNN
-F 3 "~" H 7200 3900 50  0001 C CNN
-	1    7200 3900
+L power:GND #PWR?
+U 1 1 60EF39A5
+P 5400 4450
+AR Path="/5D8A1FAC/60EF39A5" Ref="#PWR?"  Part="1" 
+AR Path="/60EF39A5" Ref="#PWR?"  Part="1" 
+AR Path="/620E795B/60EF39A5" Ref="#PWR?"  Part="1" 
+AR Path="/6191F40B/60EF39A5" Ref="#PWR0138"  Part="1" 
+F 0 "#PWR0138" H 5400 4200 50  0001 C CNN
+F 1 "GND" H 5400 4300 50  0000 C CNN
+F 2 "" H 5400 4450 60  0000 C CNN
+F 3 "" H 5400 4450 60  0000 C CNN
+	1    5400 4450
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60EF39AD
+P 4850 4550
+AR Path="/60EF39AD" Ref="C?"  Part="1" 
+AR Path="/620E795B/60EF39AD" Ref="C?"  Part="1" 
+AR Path="/6191F40B/60EF39AD" Ref="C70"  Part="1" 
+F 0 "C70" V 4900 4650 50  0000 C CNN
+F 1 "18p" V 4900 4400 50  0000 C CNN
+F 2 "otter:C_0402" H 4850 4550 50  0001 C CNN
+F 3 "~" H 4850 4550 50  0001 C CNN
+	1    4850 4550
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R?
-U 1 1 5FF46A23
-P 7200 4000
-AR Path="/5FF46A23" Ref="R?"  Part="1" 
-AR Path="/6191F40B/5FF46A23" Ref="R36"  Part="1" 
-F 0 "R36" V 7150 3850 50  0000 C CNN
-F 1 "DNP" V 7150 4150 50  0000 C CNN
-F 2 "otter:R_0402" H 7200 4000 50  0001 C CNN
-F 3 "~" H 7200 4000 50  0001 C CNN
-	1    7200 4000
+L Device:C_Small C?
+U 1 1 60EF39B3
+P 4850 4350
+AR Path="/60EF39B3" Ref="C?"  Part="1" 
+AR Path="/620E795B/60EF39B3" Ref="C?"  Part="1" 
+AR Path="/6191F40B/60EF39B3" Ref="C69"  Part="1" 
+F 0 "C69" V 4900 4450 50  0000 C CNN
+F 1 "18p" V 4900 4200 50  0000 C CNN
+F 2 "otter:C_0402" H 4850 4350 50  0001 C CNN
+F 3 "~" H 4850 4350 50  0001 C CNN
+	1    4850 4350
 	0    1    1    0   
 $EndComp
+Connection ~ 5300 4350
+Connection ~ 5300 4550
 $Comp
-L Device:R_Small R?
-U 1 1 5FF44E4A
-P 7200 4100
-AR Path="/5FF44E4A" Ref="R?"  Part="1" 
-AR Path="/6191F40B/5FF44E4A" Ref="R37"  Part="1" 
-F 0 "R37" V 7150 3950 50  0000 C CNN
-F 1 "DNP" V 7150 4250 50  0000 C CNN
-F 2 "otter:R_0402" H 7200 4100 50  0001 C CNN
-F 3 "~" H 7200 4100 50  0001 C CNN
-	1    7200 4100
-	0    1    1    0   
+L power:GND #PWR?
+U 1 1 60EF39BB
+P 5200 4450
+AR Path="/5D8A1FAC/60EF39BB" Ref="#PWR?"  Part="1" 
+AR Path="/60EF39BB" Ref="#PWR?"  Part="1" 
+AR Path="/620E795B/60EF39BB" Ref="#PWR?"  Part="1" 
+AR Path="/6191F40B/60EF39BB" Ref="#PWR0139"  Part="1" 
+F 0 "#PWR0139" H 5200 4200 50  0001 C CNN
+F 1 "GND" H 5200 4300 50  0000 C CNN
+F 2 "" H 5200 4450 60  0000 C CNN
+F 3 "" H 5200 4450 60  0000 C CNN
+	1    5200 4450
+	0    1    -1   0   
 $EndComp
+Wire Wire Line
+	5300 4350 4950 4350
+Wire Wire Line
+	5300 4550 4950 4550
 $Comp
-L Device:R_Small R?
-U 1 1 5FF3EF5A
-P 7200 4200
-AR Path="/5FF3EF5A" Ref="R?"  Part="1" 
-AR Path="/6191F40B/5FF3EF5A" Ref="R38"  Part="1" 
-F 0 "R38" V 7150 4050 50  0000 C CNN
-F 1 "DNP" V 7150 4350 50  0000 C CNN
-F 2 "otter:R_0402" H 7200 4200 50  0001 C CNN
-F 3 "~" H 7200 4200 50  0001 C CNN
-	1    7200 4200
-	0    1    1    0   
+L power:GND #PWR?
+U 1 1 60EF39C3
+P 4650 4350
+AR Path="/5D8A1FAC/60EF39C3" Ref="#PWR?"  Part="1" 
+AR Path="/60EF39C3" Ref="#PWR?"  Part="1" 
+AR Path="/620E795B/60EF39C3" Ref="#PWR?"  Part="1" 
+AR Path="/6191F40B/60EF39C3" Ref="#PWR0152"  Part="1" 
+F 0 "#PWR0152" H 4650 4100 50  0001 C CNN
+F 1 "GND" V 4650 4200 50  0000 R CNN
+F 2 "" H 4650 4350 60  0000 C CNN
+F 3 "" H 4650 4350 60  0000 C CNN
+	1    4650 4350
+	0    1    -1   0   
 $EndComp
+Wire Wire Line
+	4650 4350 4750 4350
+$Comp
+L power:GND #PWR?
+U 1 1 60EF39CA
+P 4650 4550
+AR Path="/5D8A1FAC/60EF39CA" Ref="#PWR?"  Part="1" 
+AR Path="/60EF39CA" Ref="#PWR?"  Part="1" 
+AR Path="/620E795B/60EF39CA" Ref="#PWR?"  Part="1" 
+AR Path="/6191F40B/60EF39CA" Ref="#PWR0153"  Part="1" 
+F 0 "#PWR0153" H 4650 4300 50  0001 C CNN
+F 1 "GND" V 4650 4400 50  0000 R CNN
+F 2 "" H 4650 4550 60  0000 C CNN
+F 3 "" H 4650 4550 60  0000 C CNN
+	1    4650 4550
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4650 4550 4750 4550
+Wire Wire Line
+	5650 4350 5650 4400
+Wire Wire Line
+	5650 4400 5700 4400
+Wire Wire Line
+	5300 4350 5650 4350
+Wire Wire Line
+	5650 4550 5650 4500
+Wire Wire Line
+	5650 4500 5700 4500
+Wire Wire Line
+	5300 4550 5650 4550
 $EndSCHEMATC
