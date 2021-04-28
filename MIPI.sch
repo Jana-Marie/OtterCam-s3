@@ -1234,17 +1234,6 @@ Wire Wire Line
 Connection ~ 10200 2550
 Wire Wire Line
 	10200 2550 10200 2600
-$Comp
-L otter:49F-1201GYD2NL J4
-U 1 1 60475CA8
-P 8400 2350
-F 0 "J4" H 7870 2396 50  0000 R CNN
-F 1 "49F-1201GYD2NL" H 7870 2305 50  0000 R CNN
-F 2 "otter:49F-1201GYDXNL" H 8000 1800 50  0001 C CNN
-F 3 "https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/JXD6-0001NL/doc_part/JXD6-0001NL.pdf" H 7985 2115 50  0001 L TNN
-	1    8400 2350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4400 4000 5200 4000
 Wire Wire Line
@@ -1585,4 +1574,29 @@ F 3 "" H 10450 6200 60  0000 C CNN
 $EndComp
 Text GLabel 10250 4600 0    50   Input ~ 0
 MIPI_CK_P
+$Comp
+L Connector:RJ45_Shielded J4
+U 1 1 60D5E719
+P 6650 1850
+F 0 "J4" H 6707 2517 50  0000 C CNN
+F 1 "RJ45_Shielded" H 6707 2426 50  0000 C CNN
+F 2 "otter:1-338088-3" V 6650 1875 50  0001 C CNN
+F 3 "~" V 6650 1875 50  0001 C CNN
+	1    6650 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60D5EC97
+P 6650 2350
+AR Path="/5D8A1FAC/60D5EC97" Ref="#PWR?"  Part="1" 
+AR Path="/60D5EC97" Ref="#PWR?"  Part="1" 
+AR Path="/620E795B/60D5EC97" Ref="#PWR0158"  Part="1" 
+F 0 "#PWR0158" H 6650 2100 50  0001 C CNN
+F 1 "GND" H 6650 2200 50  0000 C CNN
+F 2 "" H 6650 2350 60  0000 C CNN
+F 3 "" H 6650 2350 60  0000 C CNN
+	1    6650 2350
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
