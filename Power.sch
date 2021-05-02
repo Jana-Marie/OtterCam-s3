@@ -2686,4 +2686,26 @@ F 3 "~" H 3950 2300 50  0001 C CNN
 	1    3950 2300
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 60A3D969
+P 8150 9450
+F 0 "FID1" H 8235 9496 50  0000 L CNN
+F 1 "Fiducial" H 8235 9405 50  0000 L CNN
+F 2 "otter:FID_1.52" H 8150 9450 50  0001 C CNN
+F 3 "~" H 8150 9450 50  0001 C CNN
+	1    8150 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID2
+U 1 1 60A4397C
+P 8150 9650
+F 0 "FID2" H 8235 9696 50  0000 L CNN
+F 1 "Fiducial" H 8235 9605 50  0000 L CNN
+F 2 "otter:FID_1.52" H 8150 9650 50  0001 C CNN
+F 3 "~" H 8150 9650 50  0001 C CNN
+	1    8150 9650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

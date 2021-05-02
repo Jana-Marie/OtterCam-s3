@@ -1256,7 +1256,7 @@ $EndComp
 Text GLabel 10250 4600 0    50   Input ~ 0
 MIPI_CK_P
 $Comp
-L Connector:RJ45_Shielded J4
+L otter:8P8C_Shielded_pinheader J4
 U 1 1 60D5E719
 P 7550 1650
 F 0 "J4" H 7607 2317 50  0000 C CNN
@@ -1507,4 +1507,43 @@ F 3 "" H 10400 2600 50  0001 C CNN
 	1    10400 2600
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	7150 1250 7150 1300
+$Comp
+L power:GND #PWR?
+U 1 1 60B7C206
+P 7150 1300
+AR Path="/5D8A1FAC/60B7C206" Ref="#PWR?"  Part="1" 
+AR Path="/60B7C206" Ref="#PWR?"  Part="1" 
+AR Path="/620E795B/60B7C206" Ref="#PWR0162"  Part="1" 
+F 0 "#PWR0162" H 7150 1050 50  0001 C CNN
+F 1 "GND" V 7155 1172 50  0000 R CNN
+F 2 "" H 7150 1300 60  0000 C CNN
+F 3 "" H 7150 1300 60  0000 C CNN
+	1    7150 1300
+	0    1    -1   0   
+$EndComp
+Connection ~ 7150 1300
+Wire Wire Line
+	7150 1300 7150 1350
+$Comp
+L power:+5V #PWR?
+U 1 1 60B83CE2
+P 7150 1500
+AR Path="/5D8A1FAC/60B83CE2" Ref="#PWR?"  Part="1" 
+AR Path="/60B83CE2" Ref="#PWR?"  Part="1" 
+AR Path="/602ACDF9/60B83CE2" Ref="#PWR?"  Part="1" 
+AR Path="/620E795B/60B83CE2" Ref="#PWR0163"  Part="1" 
+F 0 "#PWR0163" H 7150 1350 50  0001 C CNN
+F 1 "+5V" V 7150 1650 50  0000 L CNN
+F 2 "" H 7150 1500 60  0000 C CNN
+F 3 "" H 7150 1500 60  0000 C CNN
+	1    7150 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7150 1450 7150 1500
+Connection ~ 7150 1500
+Wire Wire Line
+	7150 1500 7150 1550
 $EndSCHEMATC
