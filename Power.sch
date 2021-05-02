@@ -1647,19 +1647,6 @@ Wire Wire Line
 	6800 5150 6850 5150
 $Comp
 L Device:C_Small C?
-U 1 1 68F20EB9
-P 3950 2300
-AR Path="/68F20EB9" Ref="C?"  Part="1" 
-AR Path="/602ACDF9/68F20EB9" Ref="C11"  Part="1" 
-F 0 "C11" H 4042 2346 50  0000 L CNN
-F 1 "10u" H 4042 2255 50  0000 L CNN
-F 2 "otter:C_0603" H 3950 2300 50  0001 C CNN
-F 3 "~" H 3950 2300 50  0001 C CNN
-	1    3950 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
 U 1 1 68F439E2
 P 3000 2700
 AR Path="/68F439E2" Ref="C?"  Part="1" 
@@ -2686,4 +2673,17 @@ NoConn ~ 4650 8900
 NoConn ~ 4650 8800
 NoConn ~ 4650 9200
 NoConn ~ 4650 9100
+$Comp
+L Device:C_Small C?
+U 1 1 68F20EB9
+P 3950 2300
+AR Path="/68F20EB9" Ref="C?"  Part="1" 
+AR Path="/602ACDF9/68F20EB9" Ref="C11"  Part="1" 
+F 0 "C11" H 4042 2346 50  0000 L CNN
+F 1 "10u" H 4042 2255 50  0000 L CNN
+F 2 "otter:C_0603" H 3950 2300 50  0001 C CNN
+F 3 "~" H 3950 2300 50  0001 C CNN
+	1    3950 2300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
