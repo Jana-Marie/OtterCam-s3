@@ -1,4 +1,4 @@
-17670363751178197
+17675233428883197
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -76745,8 +76745,8 @@ otter
 1-338088-3 RJ45 TE Connectivity 87547-4111LF Amphenol ICC
 
 0
-12
-9
+20
+17
 otter
 2P2T_R
 
@@ -77084,6 +77084,13 @@ FH35C-25S
 27
 26
 otter
+FID_1.52
+
+
+0
+0
+0
+otter
 GL850G
 TSSOP28: plastic thin shrink small outline package; 28 leads; body width 4.4 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot361-1_po.pdf)
 SSOP 0.65
@@ -77314,6 +77321,13 @@ MP8859
 0
 16
 16
+otter
+OS05A10
+
+
+0
+73
+73
 otter
 OVM9724-RADA
 
@@ -78420,6 +78434,13 @@ polyhedrone
 0
 0
 0
+otter
+powerSTEP01
+
+
+0
+50
+50
 otter
 power_0707
 
