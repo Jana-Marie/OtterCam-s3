@@ -1,4 +1,4 @@
-17675233428883197
+17691496245248197
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -76839,6 +76839,13 @@ otter
 14
 12
 otter
+9774020360
+
+
+0
+1
+1
+otter
 AN9520_Rainsun
 
 
@@ -77070,12 +77077,26 @@ ESP-wroom-32
 39
 39
 otter
+FAN65004B
+
+
+0
+35
+35
+otter
 FBGA-234(Pitch-0.65mm_Pad-0.3mm_11x11x1.08mm)
 
 
 0
 234
 234
+otter
+FC-B1010RGBT-HG
+LED RGB 
+
+0
+4
+4
 otter
 FH35C-25S
 
@@ -77169,6 +77190,13 @@ resistor
 3
 otter
 J_0603_90
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor
+0
+4
+3
+otter
+J_0603_180
 Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 capacitor
 0
@@ -77476,6 +77504,13 @@ PAD7.5x12
 1
 1
 otter
+PG1353
+
+
+0
+2
+2
+otter
 PH-MVF-5365
 
 
@@ -77636,6 +77671,13 @@ Surface mounted pin header SMD 2x40 1.27mm double row
 0
 80
 80
+otter
+PowerFLAT3.3x3.3
+
+
+0
+5
+5
 otter
 QFN-20-1EP_4x4mm_P0.5mm_EP2.15x2.15mm
 QFN, 20 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=274), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
@@ -78491,6 +78533,13 @@ screw_1.5_17.5
 1
 1
 otter
+shark_girl_kani_aji_
+
+
+0
+0
+0
+otter
 sk6812mini
 
 
@@ -78505,12 +78554,33 @@ solderpad
 1
 1
 otter
+stars_kani_aji_
+
+
+0
+0
+0
+otter
+stars_mask_kani_aji_
+
+
+0
+0
+0
+otter
 type2_banana
 
 
 0
 7
 7
+otter
+type2_banana_CP_PP
+
+
+0
+2
+2
 otter
 type2_direct
 

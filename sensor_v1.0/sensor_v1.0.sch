@@ -479,21 +479,21 @@ F 3 "" H 5100 5100 50  0001 C CNN
 	1    5100 5100
 	0    -1   -1   0   
 $EndComp
-Text GLabel 9350 1800 2    50   Input ~ 0
+Text GLabel 9350 2100 2    50   Input ~ 0
 MIPI_D0_P
-Text GLabel 9350 1900 2    50   Input ~ 0
+Text GLabel 9350 2200 2    50   Input ~ 0
 MIPI_D0_N
 Text GLabel 9350 2400 2    50   Input ~ 0
 MIPI_CLK_P
 Text GLabel 9350 2500 2    50   Input ~ 0
 MIPI_CLK_N
-Text GLabel 9350 2100 2    50   Input ~ 0
-MIPI_D1_P
-Text GLabel 9350 2200 2    50   Input ~ 0
-MIPI_D1_N
 Text GLabel 9350 2700 2    50   Input ~ 0
-MIPI_D2_P
+MIPI_D1_P
 Text GLabel 9350 2800 2    50   Input ~ 0
+MIPI_D1_N
+Text GLabel 9350 1800 2    50   Input ~ 0
+MIPI_D2_P
+Text GLabel 9350 1900 2    50   Input ~ 0
 MIPI_D2_N
 Text GLabel 9350 3000 2    50   Input ~ 0
 MIPI_D3_P
@@ -1402,4 +1402,52 @@ Wire Wire Line
 Connection ~ 5400 2050
 Wire Wire Line
 	6100 2050 6800 2050
+Text GLabel 2150 1600 3    50   Input ~ 0
+MIPI_SCK
+Text GLabel 2450 1600 3    50   Input ~ 0
+MIPI_SDA
+$Comp
+L Device:R_Small R3
+U 1 1 6168DC5F
+P 2150 1500
+F 0 "R3" H 2209 1546 50  0000 L CNN
+F 1 "10k" H 2209 1455 50  0000 L CNN
+F 2 "otter:R_0402" H 2150 1500 50  0001 C CNN
+F 3 "~" H 2150 1500 50  0001 C CNN
+	1    2150 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+2V8 #PWR0146
+U 1 1 6168DC65
+P 2150 1400
+F 0 "#PWR0146" H 2150 1250 50  0001 C CNN
+F 1 "+2V8" H 2150 1550 50  0000 C CNN
+F 2 "" H 2150 1400 50  0001 C CNN
+F 3 "" H 2150 1400 50  0001 C CNN
+	1    2150 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 61691912
+P 2450 1500
+F 0 "R4" H 2509 1546 50  0000 L CNN
+F 1 "10k" H 2509 1455 50  0000 L CNN
+F 2 "otter:R_0402" H 2450 1500 50  0001 C CNN
+F 3 "~" H 2450 1500 50  0001 C CNN
+	1    2450 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+2V8 #PWR0157
+U 1 1 61691918
+P 2450 1400
+F 0 "#PWR0157" H 2450 1250 50  0001 C CNN
+F 1 "+2V8" H 2450 1550 50  0000 C CNN
+F 2 "" H 2450 1400 50  0001 C CNN
+F 3 "" H 2450 1400 50  0001 C CNN
+	1    2450 1400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
