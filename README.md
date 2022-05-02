@@ -1,14 +1,17 @@
 # OtterCam-s3
 
-WIP USB/IP camera based on Sochip s3 and OS05A10/OS05A20 & general MIPI CSI IP camera interface. Does not burn nor boot, yet.
+WIP USB/IP camera based on Sochip s3 and OS05A10/OS05A20 & general MIPI CSI IP camera interface. Boots and Camera Sensor is detected ^-^
 
 ![](images/1.jpg)
 ![](images/2.jpg)
 ![](images/3.jpg)
 
+### Todo
+ - [ ] Test mipi driver
+
 ### Issues
- - [ ] MIPI Lanes Sensor are switched
- - [ ] No I2C Pullups
+ - [x] MIPI Lanes Sensor are switched
+ - [x] No I2C Pullups
 
 ### License
 
