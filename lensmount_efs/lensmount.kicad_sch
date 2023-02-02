@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "EF-S Mount board")
+    (date "2023-02-02")
+    (rev "v1.0.1")
+    (company "Jana Marie hemsing")
+  )
+
   (lib_symbols
     (symbol "Connector_Generic:Conn_01x01" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 2.54 0)

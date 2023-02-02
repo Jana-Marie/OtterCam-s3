@@ -61,7 +61,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "gerber/")
+      (outputdirectory "gerber_v1.0.1/")
     )
   )
 
@@ -3936,7 +3936,7 @@
   (gr_circle (center 100 100) (end 120.9 100) (layer "Edge.Cuts") (width 0.05) (fill none) (tstamp 96de0051-7945-413a-9219-1ab367546962))
   (gr_arc (start 120 75.1) (mid 123.464823 76.535177) (end 124.9 80) (layer "Edge.Cuts") (width 0.05) (tstamp bdf40d30-88ff-4479-bad1-69529464b61b))
   (gr_line (start 75.1 80) (end 75.1 120) (layer "Edge.Cuts") (width 0.05) (tstamp cf21dfe3-ab4f-4ad9-b7cf-dc892d833b13))
-  (gr_text "@_Jana_Marie 2021\ngithub.com/Jana-Marie/OtterCam-s3" (at 122.75 100 90) (layer "F.SilkS") (tstamp d4db7f11-8cfe-40d2-b021-b36f05241701)
+  (gr_text "@jana@mystical.garden 2023\ngithub.com/Jana-Marie/OtterCam-s3" (at 122.75 100 90) (layer "F.SilkS") (tstamp d4db7f11-8cfe-40d2-b021-b36f05241701)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "OtterCam-s3 Lensmount EF(-S)\nJana Marie Hemsing\n" (at 77.25 100 90) (layer "F.SilkS") (tstamp faa1812c-fdf3-47ae-9cf4-ae06a263bfbd)
