@@ -8,20 +8,20 @@ In the current state the camera does boot and the sensor shows up under linux, h
   <tbody>
     <tr>
       <td>
-        <img src="/images/c1.jpg"/>
+        <img src="/images/c1.JPG"/>
       </td>
       <td>
-        <img src="/images/c2.jpg"/>
+        <img src="/images/c2.JPG"/>
       </td>
     </tr>
     <tr>
       <td colspan="2">
-        <img src="/images/o2.jpg"/>
+        <img src="/images/o2.JPG"/>
       </td>
     </tr>
     <tr>
       <td>
-        <img src="/images/d1.jpg"/>
+        <img src="/images/d1.JPG"/>
       </td>
       <td>
         <img src="/images/1.jpg"/>
