@@ -1,4 +1,8 @@
-*-bak
 bom/
-*.scad
+# kicad
 *-backups
+gerber
+fp-info-cache
+*-bak
+*.step
+*.stp
