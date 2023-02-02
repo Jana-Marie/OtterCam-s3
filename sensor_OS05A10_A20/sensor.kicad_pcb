@@ -63,7 +63,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "gerber_v1.1/")
+      (outputdirectory "gerber_v1.1.1/")
     )
   )
 
@@ -1569,7 +1569,7 @@
   (gr_line (start 95 99.9) (end 55 99.9) (layer "Edge.Cuts") (width 0.05) (tstamp c8c138fb-3b8c-48e7-8eed-12e7b3c121de))
   (gr_line (start 98.8 60.3) (end 96.2 60.3) (layer "Edge.Cuts") (width 0.05) (tstamp e7b9820c-ebd4-46c0-8732-cafc559c4fbc))
   (gr_arc (start 98.8 60.3) (mid 98.941421 60.358579) (end 99 60.5) (layer "Edge.Cuts") (width 0.05) (tstamp fdff2fcd-c6ae-4363-94be-e87012c3e9e7))
-  (gr_text "OtterCam-s3 OS05A10/20 Board\nJana Marie Hemsing\n@_Jana_Marie 2022 rev 1.11\ngithub.com/Jana-Marie/OtterCam-s3" (at 75 92) (layer "B.SilkS") (tstamp be813dec-c91f-4c06-808b-c742fd6baf99)
+  (gr_text "OtterCam-s3 OS05A10/20 Board\nJana Marie Hemsing\n@jana@mystical.garden 2023 rev 1.11.1\ngithub.com/Jana-Marie/OtterCam-s3" (at 75 92) (layer "B.SilkS") (tstamp be813dec-c91f-4c06-808b-c742fd6baf99)
     (effects (font (size 1.1 1.1) (thickness 0.13)) (justify mirror))
   )
 

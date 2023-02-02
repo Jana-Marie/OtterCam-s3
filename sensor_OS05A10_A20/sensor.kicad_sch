@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "OS05A10/OS05A20 Sensor board")
+    (date "2023-02-02")
+    (rev "v1.1.1")
+    (company "Jana Marie Hemsing")
+  )
+
   (lib_symbols
     (symbol "Connector_Generic_MountingPin:Conn_01x25_MountingPin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 33.02 0)
