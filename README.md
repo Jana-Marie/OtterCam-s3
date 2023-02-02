@@ -41,7 +41,7 @@ In the current state the camera does boot and the sensor shows up under linux, h
 
 ### License
 
-Copyright Jana Marie Hemsing 2022.
+Copyright Jana Marie Hemsing 2023.
 
 This source describes Open Hardware and is licensed under the CERN-OHL-S v2.
 
