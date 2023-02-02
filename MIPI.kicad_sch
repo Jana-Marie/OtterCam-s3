@@ -5,8 +5,10 @@
   (paper "A4")
 
   (title_block
-    (title "OtterCastAudioV2")
+    (title "OtterCamS3")
+    (date "2023-02-02")
     (rev "1.0")
+    (company "Jana Marie Hemsing")
   )
 
   (lib_symbols

@@ -5,8 +5,10 @@
   (paper "A3")
 
   (title_block
-    (title "OtterCastAudioV2")
+    (title "OtterCamS3")
+    (date "2023-02-02")
     (rev "1.0")
+    (company "Jana Marie Hemsing")
   )
 
   (lib_symbols
@@ -3252,8 +3254,8 @@
   (symbol (lib_id "otter:AllWinner-S3(FBGA-234)") (at 138.43 162.56 0) (unit 3)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000067afcad8)
-    (property "Reference" "U1" (id 0) (at 138.43 128.27 0))
-    (property "Value" "AllWinner-S3(FBGA-234)" (id 1) (at 138.43 125.73 0))
+    (property "Reference" "U1" (id 0) (at 138.43 143.51 0))
+    (property "Value" "AllWinner-S3(FBGA-234)" (id 1) (at 138.43 140.97 0))
     (property "Footprint" "otter:FBGA-234(Pitch-0.65mm_Pad-0.3mm_11x11x1.08mm)" (id 2) (at 138.43 214.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
