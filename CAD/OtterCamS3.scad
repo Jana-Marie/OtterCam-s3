@@ -44,7 +44,7 @@ if($preview){
         }
     }
 } else {
-    c_mount(h=9.9,focus=17.526,sens_h=1,p=perim);
+    c_mount(h=7,focus=12.526,sens_h=1,p=perim);
 }
 
 module c_mount(h=10,shoff=0.5,t=1.6,x=49.8,y=49.8,r=4.9,r_d=0.5,p=1,screw=3,focus=17.526,sens_h=1){
@@ -90,7 +90,7 @@ module c_mount(h=10,shoff=0.5,t=1.6,x=49.8,y=49.8,r=4.9,r_d=0.5,p=1,screw=3,focu
                         }
                     }
                     // lenshole
-                    translate([0,0,h+0.5-focus-sens_h-0.1])cylinder(d=24.427,h=focus);
+                    translate([0,0,h+0.5-focus-sens_h-0.1])cylinder(d=24.6,h=focus);
                     // lensthread
                     if(!$preview){
                         t_p=0.794;
