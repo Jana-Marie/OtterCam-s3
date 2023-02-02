@@ -2638,7 +2638,7 @@
     (pin "1" (uuid 5cb5d2c1-b124-42dc-82d3-a79f557ce415))
   )
 
-  (symbol (lib_id "power:+3V3") (at 102.87 146.05 0)
+  (symbol (lib_id "power:+3V3") (at 102.87 146.05 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000604123f5)
     (property "Reference" "#PWR01" (id 0) (at 102.87 149.86 0)
@@ -2654,7 +2654,7 @@
     (pin "1" (uuid 05cdbadc-844d-45b0-a029-66bd8cce70b9))
   )
 
-  (symbol (lib_id "power:+3V3") (at 240.03 57.15 0)
+  (symbol (lib_id "power:+3V3") (at 240.03 57.15 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000604143df)
     (property "Reference" "#PWR05" (id 0) (at 240.03 60.96 0)
@@ -2670,7 +2670,7 @@
     (pin "1" (uuid b75115b9-9ae3-4295-9976-97eb71700002))
   )
 
-  (symbol (lib_id "power:+3V3") (at 254 149.86 0)
+  (symbol (lib_id "power:+3V3") (at 254 149.86 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000604162df)
     (property "Reference" "#PWR07" (id 0) (at 254 153.67 0)
@@ -2686,7 +2686,7 @@
     (pin "1" (uuid 808a135c-f835-4f6b-bcc4-6f37003dc078))
   )
 
-  (symbol (lib_id "power:+3V3") (at 142.24 124.46 90)
+  (symbol (lib_id "power:+3V3") (at 142.24 124.46 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060453d8b)
     (property "Reference" "#PWR03" (id 0) (at 146.05 124.46 0)
@@ -2758,7 +2758,7 @@
     (pin "1" (uuid 5640b998-b28c-4be1-808e-1d6b0cc9509e))
   )
 
-  (symbol (lib_id "power:+5V") (at 252.73 219.71 0)
+  (symbol (lib_id "power:+5V") (at 252.73 219.71 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060924510)
     (property "Reference" "#PWR0161" (id 0) (at 252.73 223.52 0)
@@ -2774,7 +2774,7 @@
     (pin "1" (uuid b26733c1-e4f9-4f38-be4d-bc9d69b91736))
   )
 
-  (symbol (lib_id "Device:C_Small") (at 252.73 224.79 0)
+  (symbol (lib_id "Device:C_Small") (at 252.73 224.79 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006094ccc0)
     (property "Reference" "C71" (id 0) (at 255.0668 223.6216 0)
@@ -2793,7 +2793,7 @@
     (pin "2" (uuid 8e6224b0-b4ef-4cd6-8068-e7d0bc0c020f))
   )
 
-  (symbol (lib_id "Device:R_Small") (at 187.96 157.48 90)
+  (symbol (lib_id "Device:R_Small") (at 187.96 157.48 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006098042f)
     (property "Reference" "R4" (id 0) (at 182.88 156.21 90)
