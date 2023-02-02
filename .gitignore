@@ -7,4 +7,6 @@ fp-info-cache
 *.step
 *.stp
 *.xml
-
+*gerber*
+fp-lib-table
+sym-lib-table
